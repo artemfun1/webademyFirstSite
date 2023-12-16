@@ -1,7 +1,20 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+}
 
+.container{
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.none{
+  display: none !important;
 }
 
 .header{
@@ -53,3 +66,66 @@ body{
 }
 
 
+.portfolio{
+  padding-top: 80px;
+  padding-bottom: 115px;
+
+}
+
+.portfolio-header{
+  margin: 0;
+  margin-bottom: 70px;
+  text-align: center;
+  color: #000;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 130%; /* 59.8px */
+}
+
+.portfolio-cards-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card:last-child, .card:nth-last-child(2){
+  margin-bottom: 0;
+}
+
+.card{
+  background-color: #fff;
+  max-width: 540px;
+  padding: 20px;
+  margin-bottom: 30px;
+  /* box-shadow: 0px 10px 40px 0px rgba(126, 155, 189, 0.35); */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-img{
+  margin-bottom: 20px;
+}
+
+.card-title{
+  margin: 0;
+  margin-bottom: 13px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 130%; /* 31.2px */
+}
+
+.card p{
+  margin: 0;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%; /* 20.8px */
+}
+
+
+.footer{
+  background: #1E4776;
+  padding-top: 45px;
+  padding-bottom: 130px;
+
+}
